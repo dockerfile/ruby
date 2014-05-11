@@ -8,7 +8,7 @@
 FROM dockerfile/ubuntu
 
 # Install Ruby.
-RUN add-get install -y ruby
+RUN apt-get install -y ruby
 
 # Define mountable directories.
 VOLUME ["/data"]
