@@ -13,9 +13,6 @@ RUN \
   apt-get install -y ruby ruby-dev ruby-bundler && \
   rm -rf /var/lib/apt/lists/*
 
-# Define mountable directories.
-VOLUME ["/data"]
-
 # Define working directory.
 WORKDIR /data
 
